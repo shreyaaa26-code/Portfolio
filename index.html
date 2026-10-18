@@ -1,360 +1,382 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <title>Shreya | Engineering & Data Portfolio</title>
 
-    <title>Shreya | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">Shreya<span>.</span></div>
+  <!-- Background decoration -->
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#home" class="logo">S<span>.</span></a>
 
-            <a href="#contact" class="nav-btn">Let's Talk</a>
-        </nav>
-    </header>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
 
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
+  <main>
+    <!-- Hero section -->
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="availability">
+          <span class="status-dot"></span>
+          Engineering Student · Building My Skills
+        </div>
 
-        <div class="hero-content">
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Shreya<span class="gradient-text">.</span></h1>
 
-            <p class="small-text">HELLO, I'M</p>
+        <h2>
+          An ENTC Engineering Student
+          <br>
+          Interested in <span id="typingText">Data Analytics</span><span class="typing-cursor">|</span>
+        </h2>
 
-            <h1>Shreya <span></span></h1>
+        <p class="hero-description">
+          Exploring the world of technology through programming,
+          data visualization, and web development. Learning, building,
+          and turning ideas into practical projects.
+        </p>
 
-            <h2>
-                ENTC Student & 
-                <span class="highlight">Software Enthusiast</span>
-            </h2>
+        <div class="hero-buttons">
+          <a href="#projects" class="button button-primary">Explore My Work ↗</a>
+          <a href="#about" class="button button-secondary">About Me</a>
+        </div>
 
-            <p class="hero-description">
-                I enjoy building useful digital experiences and exploring
-                software development, data analytics and modern technologies.
+        <div class="social-links">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <span>·</span>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card">
+          <div class="profile-top">
+            <span class="window-dot"></span>
+            <span class="window-dot"></span>
+            <span class="window-dot"></span>
+            <span class="profile-label">MY TECH SPACE</span>
+          </div>
+
+          <div class="profile-symbol">S<span>.</span></div>
+          <h3>Curious Mind.</h3>
+          <h3 class="gradient-text">Creative Builder.</h3>
+          <p>Engineering × Data × Technology</p>
+
+          <div class="mini-tags">
+            <span>Programming</span>
+            <span>Analytics</span>
+            <span>Web</span>
+          </div>
+
+          <div class="code-decoration">
+            <span>01</span> learn();<br>
+            <span>02</span> build();<br>
+            <span>03</span> improve();
+          </div>
+        </div>
+
+        <div class="floating-badge badge-data">✦ Data & Insights</div>
+        <div class="floating-badge badge-code">&lt;/&gt; Code & Create</div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Learning today.<br><span class="gradient-text">Building for tomorrow.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm Shreya, a third-year Electronics and Telecommunication
+            Engineering (ENTC) student with an interest in software,
+            data analytics, and modern web technologies.
+          </p>
+          <p>
+            I enjoy exploring new tools, developing beginner-friendly
+            projects, and understanding how technology can solve
+            real-world problems. I'm continuously improving my
+            technical and problem-solving skills through practice.
+          </p>
+          <p>
+            My goal is to combine my engineering foundation with
+            programming and data-driven thinking to create useful
+            digital experiences.
+          </p>
+        </div>
+
+        <div class="about-highlight reveal">
+          <div class="highlight-icon">✦</div>
+          <p class="eyebrow">MY APPROACH</p>
+          <h3>Stay curious.<br>Keep experimenting.</h3>
+          <p>
+            Every project is an opportunity to learn something new,
+            improve my skills, and make progress.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="section skills-section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHAT I'M EXPLORING</p>
+        <h2>Skills & <span class="gradient-text">Interests</span></h2>
+        <p class="section-subtitle">
+          A growing skill set across engineering, code, data, and design.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Programming</h3>
+          <p>Building a foundation in coding, logical thinking, and problem-solving.</p>
+          <div class="skill-tags">
+            <span>Java</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">▥</div>
+          <h3>Data Analytics</h3>
+          <p>Exploring how data can be cleaned, analyzed, and used to discover insights.</p>
+          <div class="skill-tags">
+            <span>Data Analysis</span>
+            <span>Excel</span>
+            <span>Insights</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">◩</div>
+          <h3>Data Visualization</h3>
+          <p>Learning to turn data into clear, interactive, and meaningful visuals.</p>
+          <div class="skill-tags">
+            <span>Tableau</span>
+            <span>Dashboards</span>
+            <span>Charts</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">⌘</div>
+          <h3>Web Development</h3>
+          <p>Creating responsive web pages with useful features and clean layouts.</p>
+          <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">⌬</div>
+          <h3>Engineering</h3>
+          <p>Applying an engineering mindset to understand systems and solve problems.</p>
+          <div class="skill-tags">
+            <span>ENTC</span>
+            <span>Electronics</span>
+            <span>Problem Solving</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">↗</div>
+          <h3>Continuous Learning</h3>
+          <p>Practicing through projects, exploring tools, and developing new abilities.</p>
+          <div class="skill-tags">
+            <span>Projects</span>
+            <span>Research</span>
+            <span>Growth</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="skill-note">
+        Skills shown represent my learning areas and interests. I'm continuing
+        to build practical experience in each of them.
+      </p>
+    </section>
+
+    <!-- Projects section -->
+    <section class="section projects-section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects & <span class="gradient-text">Explorations</span></h2>
+        <p class="section-subtitle">
+          Practical work and areas I'm developing through learning and experimentation.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- ShopZone project -->
+        <article class="project-card project-featured reveal">
+          <div class="project-art shopzone-art">
+            <div class="browser-bar">
+              <span></span><span></span><span></span>
+              <small>shopzone.store</small>
+            </div>
+            <div class="shopzone-preview">
+              <span class="preview-brand">ShopZone.</span>
+              <span class="preview-pill">EVERYDAY FINDS</span>
+              <h3>Find your<br>next favourite.</h3>
+              <div class="preview-products">
+                <div>🎧</div><div>⌚</div><div>🎒</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span>01 / WEB DEVELOPMENT</span>
+              <span class="project-status">Front-end project</span>
+            </div>
+            <h3>ShopZone — E-commerce Landing Page</h3>
+            <p>
+              A responsive shopping website concept featuring product cards,
+              search, category filters, a shopping cart, and a demo checkout.
             </p>
-
-            <div class="hero-buttons">
-                <a href="#projects" class="primary-btn">View My Work →</a>
-                <a href="#contact" class="secondary-btn">Contact Me</a>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
             </div>
+            <a href="#contact" class="project-link">Discuss this project ↗</a>
+          </div>
+        </article>
 
-            <div class="social-text">
-                <span>Based in India</span>
-                <span>•</span>
-                <span>Open to Learning & Opportunities</span>
+        <!-- Tableau -->
+        <article class="project-card reveal">
+          <div class="project-art tableau-art">
+            <div class="chart-window">
+              <div class="chart-heading">DATA OVERVIEW</div>
+              <div class="chart-number">Insights <span>↗</span></div>
+              <div class="bar-chart">
+                <i style="height: 36%"></i>
+                <i style="height: 60%"></i>
+                <i style="height: 45%"></i>
+                <i style="height: 82%"></i>
+                <i style="height: 68%"></i>
+                <i style="height: 95%"></i>
+                <i style="height: 74%"></i>
+              </div>
+              <div class="chart-caption">Illustrative dashboard preview</div>
             </div>
+          </div>
 
-        </div>
-
-
-        <div class="hero-card">
-
-            <div class="glow"></div>
-
-            <div class="profile-circle">
-                SJ
+          <div class="project-content">
+            <div class="project-meta">
+              <span>02 / DATA VISUALIZATION</span>
+              <span class="project-status">Learning area</span>
             </div>
-
-            <div class="floating-card card-one">
-                <span>💻</span>
-                <div>
-                    <strong>Software</strong>
-                    <small>Development</small>
-                </div>
+            <h3>Tableau — Data Visualization</h3>
+            <p>
+              Exploring Tableau charts and dashboard design to present
+              information visually and make data easier to understand.
+            </p>
+            <div class="project-tags">
+              <span>Tableau</span><span>Charts</span><span>Dashboards</span>
             </div>
+            <a href="#contact" class="project-link">Connect with me ↗</a>
+          </div>
+        </article>
 
-            <div class="floating-card card-two">
-                <span>📊</span>
-                <div>
-                    <strong>Data</strong>
-                    <small>Analytics</small>
-                </div>
+        <!-- Data Analytics -->
+        <article class="project-card reveal">
+          <div class="project-art analytics-art">
+            <div class="analytics-panel">
+              <span class="analytics-label">DATA WORKFLOW</span>
+              <div class="workflow-step"><b>01</b> Collect data <span>✓</span></div>
+              <div class="workflow-step"><b>02</b> Explore patterns <span>↗</span></div>
+              <div class="workflow-step"><b>03</b> Communicate insights <span>✦</span></div>
+              <div class="analytics-line"></div>
             </div>
+          </div>
 
-            <div class="floating-card card-three">
-                <span>🚀</span>
-                <div>
-                    <strong>Always</strong>
-                    <small>Learning</small>
-                </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>03 / DATA ANALYTICS</span>
+              <span class="project-status">Practice & learning</span>
             </div>
+            <h3>Data Analytics Exploration</h3>
+            <p>
+              Developing an understanding of data analysis workflows,
+              interpreting patterns, and communicating findings clearly.
+            </p>
+            <div class="project-tags">
+              <span>Excel</span><span>Analysis</span><span>Visualization</span>
+            </div>
+            <a href="#contact" class="project-link">Connect with me ↗</a>
+          </div>
+        </article>
+      </div>
 
-        </div>
-
+      <p class="project-note">
+        Note: The Tableau and analytics cards describe learning areas, and the
+        dashboard graphic is illustrative. Add links to actual dashboards or
+        analysis projects when they are ready.
+      </p>
     </section>
 
+    <!-- Contact section -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Good ideas start<br>with a <span class="gradient-text">conversation.</span></h2>
+        <p>
+          Interested in technology, data, engineering, or collaborating
+          on a project? Feel free to connect with me.
+        </p>
 
-    <!-- About -->
-    <section class="about section" id="about">
-
-        <div class="section-heading">
-            <p>GET TO KNOW ME</p>
-            <h2>About <span>Me</span></h2>
+        <div class="contact-buttons">
+          <a class="button button-primary" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+            Find me on LinkedIn ↗
+          </a>
+          <a class="button button-secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            Explore GitHub ↗
+          </a>
         </div>
-
-        <div class="about-container">
-
-            <div class="about-box">
-                <div class="about-icon">🎓</div>
-                <h3>Engineering Student</h3>
-                <p>
-                    Currently pursuing Electronics and Telecommunication
-                    Engineering and developing my skills in software and
-                    technology.
-                </p>
-            </div>
-
-            <div class="about-box">
-                <div class="about-icon">💡</div>
-                <h3>Curious Learner</h3>
-                <p>
-                    I enjoy learning new technologies and turning ideas
-                    into simple and useful projects.
-                </p>
-            </div>
-
-            <div class="about-box">
-                <div class="about-icon">📈</div>
-                <h3>Future Focused</h3>
-                <p>
-                    I am exploring software development, data analytics
-                    and other areas of the technology industry.
-                </p>
-            </div>
-
-        </div>
-
+      </div>
     </section>
+  </main>
 
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="logo">S<span>.</span></a>
+    <p>Designed & built by Shreya · Learning one project at a time.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
 
-    <!-- Skills -->
-    <section class="skills section" id="skills">
-
-        <div class="section-heading">
-            <p>WHAT I WORK WITH</p>
-            <h2>My <span>Skills</span></h2>
-        </div>
-
-        <div class="skills-container">
-
-            <div class="skill">
-                <div class="skill-top">
-                    <span>HTML & CSS</span>
-                    <span>90%</span>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar html"></div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div class="skill-top">
-                    <span>Java</span>
-                    <span>80%</span>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar java"></div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div class="skill-top">
-                    <span>JavaScript</span>
-                    <span>75%</span>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar js"></div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div class="skill-top">
-                    <span>Data Analytics</span>
-                    <span>70%</span>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar data"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects -->
-    <section class="projects section" id="projects">
-
-        <div class="section-heading">
-            <p>MY RECENT WORK</p>
-            <h2>Featured <span>Projects</span></h2>
-        </div>
-
-        <div class="project-container">
-
-            <div class="project-card">
-
-                <div class="project-image result">
-                    <span>📊</span>
-                </div>
-
-                <div class="project-content">
-                    <span class="project-tag">Web Application</span>
-
-                    <h3>Student Result Analyzer</h3>
-
-                    <p>
-                        A student-focused application that analyzes marks,
-                        calculates percentage and grades, and provides
-                        subject performance insights.
-                    </p>
-
-                    <div class="tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <div class="project-image shop">
-                    <span>🛍️</span>
-                </div>
-
-                <div class="project-content">
-                    <span class="project-tag">E-Commerce</span>
-
-                    <h3>ShopZone</h3>
-
-                    <p>
-                        A modern e-commerce landing page with product cards,
-                        search, shopping cart interaction and responsive design.
-                    </p>
-
-                    <div class="tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <div class="project-image analytics">
-                    <span>📈</span>
-                </div>
-
-                <div class="project-content">
-                    <span class="project-tag">Data Analytics</span>
-
-                    <h3>Telemetry Dashboard</h3>
-
-                    <p>
-                        An interactive dashboard project focused on analyzing
-                        machine telemetry data and identifying downtime patterns.
-                    </p>
-
-                    <div class="tech">
-                        <span>Tableau</span>
-                        <span>Data</span>
-                        <span>Analytics</span>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- CTA -->
-    <section class="cta">
-
-        <div>
-            <p>HAVE AN IDEA?</p>
-            <h2>Let's build something <span>useful.</span></h2>
-        </div>
-
-        <a href="#contact" class="primary-btn">Let's Connect →</a>
-
-    </section>
-
-
-    <!-- Contact -->
-    <section class="contact section" id="contact">
-
-        <div class="section-heading">
-            <p>GET IN TOUCH</p>
-            <h2>Let's <span>Connect</span></h2>
-        </div>
-
-        <div class="contact-box">
-
-            <div class="contact-info">
-                <h3>Have a project or opportunity?</h3>
-
-                <p>
-                    I'm always interested in learning, collaborating and
-                    exploring new opportunities.
-                </p>
-
-                <div class="email">
-                    ✉️
-                    <span>shreya@example.com</span>
-                </div>
-            </div>
-
-            <a href="mailto:shreya@example.com" class="primary-btn">
-                Send Email →
-            </a>
-
-        </div>
-
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-        <div class="logo">Shreya<span>.</span></div>
-
-        <p>Designed & built with curiosity 💻</p>
-
-        <p>© 2026 Shreya. All rights reserved.</p>
-    </footer>
-
-
-    <!-- GSAP Animation Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
